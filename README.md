@@ -29,8 +29,10 @@ Y así sucesivamente hasta que se termine de instalar adecuadamente. Terminar co
 ```
 $ Commando ejemplificativo
 ```
+En ocasiones es necesario explicar algún comando dentro de un párrafo, como por ejemplo `mkdir` . Para lograr esto se pone entre apóstrofes invertidos la palabra deseada. 
 
 Explicar cual es el resultado esperado. En caso de errores remitir a algún procedimeinto de recuperación o reinstalación.
+Cabe mencionar que no es buena idea incluir dentro de README.md secciones completas del código. Es preferible usar hipervículos.
 
 ## Sección dos. Recomendaciones (Título de segundo nivel) 
 
@@ -48,8 +50,9 @@ Para poner un hipervínculo se pone el texto activo entre corchetes seguido del 
 
 [Maven](https://maven.apache.org/) - Dependency Management.
 
-[ROS](http://ros.org) - Robotic Operatin System.
+En ocasiones se desea tener texto exactamente abajo del anterior. El comportamiento normal de README.md es que se requiere una linea en blanco entre dos lineas para que sean separadas. Sin embargo se pueden poner una despues de la otra, si al final de la primera le anexamos 3 espacios en blanco. Aqui abajo un ejemplo:
 
+[ROS](http://ros.org) - Robotic Operatin System.   
 [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) - Basic writing and formatting syntax
 
 Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en emoji-cheat-sheet.com.
@@ -58,6 +61,25 @@ Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis
 
 ![](images/GitHub-Logo.png)
 ![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
+
+Se pueden poner lineas divisorias de secciones usando el signo menos tres veces en una linea.
+
+---
+
+
+
+## En resumen
+
+Las secciones que debería tener un buen README.md son:
+* Descripción general
+* Proceso de instalación
+* Ejemplo de ejecución del programa
+* Autores y Colaboradores
+* Tipo de Licencia
+* Agradecimientos
+* Lista de archivos y breve descripción de su función
+* Lista de Bugs conocidos aun sin resolver
+* Referencias 
 
 
 ## Autores
