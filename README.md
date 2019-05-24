@@ -27,7 +27,7 @@ $ commandos a ejecutar
 Y así sucesivamente hasta que se termine de instalar adecuadamente. Terminar con un ejemplo de corrida:
 
 ```
-$ Commando ejemplificativo
+$ Commando ejemplificativo o un pedazo de código a editar o modificar antes de compilar.
 ```
 En ocasiones es necesario explicar algún comando dentro de un párrafo, como por ejemplo `mkdir` . Para lograr esto se pone entre apóstrofes invertidos la palabra deseada. 
 
@@ -59,8 +59,18 @@ Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se 
 
 Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis la dirección absoluta o relativa del archivo image.
 
-![](images/GitHub-Logo.png)
+![Texto descriptivo de la imagen](images/GitHub-Logo.png)
 ![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
+
+También se pueden poner tablas. Aqui un ejemplo:
+
+| Cantidad | Descripción | Precio Unitario | Subtotal |
+| --- | --- | --- | --- |
+| 1 | Tarjeta Arduino | 100.00 | 100.00 |
+| 2 | Potenciómetros | 10.00 | 20.00 |
+| 10 | Resistencias de 1K| 1.00 | 10.00 |
+
+
 
 Se pueden poner lineas divisorias de secciones usando el signo menos tres veces en una linea.
 
@@ -84,7 +94,7 @@ Las secciones que debería tener un buen README.md son:
 
 ## Autores
 
-* **Alejandro Aceves NEGRITAS** - *Profesor ITALICAS* - [WebPage](http://homepage.cem.itesm.mx/aaceves)
+* **Alejandro Aceves NEGRITAS** - *Profesor ITALICAS* - [WebPage](http://homepage.cem.itesm.mx/aaceves) y  ~~Palabra tachada~~
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
