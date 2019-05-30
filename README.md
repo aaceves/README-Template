@@ -1,6 +1,6 @@
 # Título del Proyecto (Este es el título principal o título de primer nivel)
 
-Aqui va un párrafo con la descripción general del proyecto, cual es su objetivo principal y como debe usarse.
+Aqui va un párrafo con la descripción general del proyecto, su objetivo principal y como debe usarse.
 
 ## Sección uno. Instalación (Este es un título de sección, o titulo de segundo nivel)
 
@@ -102,6 +102,6 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Agradecimeintos
+## Agradecimientos
 
 Siempre es una buena construmbre agradecer a todos aquellos que nos han apoyado significativamente en el proyecto con sus comentarios o controibuciones aunque no sean parte del equipo de desarrollo. También se suele agradecer a las instituciones que apoyan con fondos monetarios en forma de becas, pago de viáticos, gastos, etc.
