@@ -1,22 +1,25 @@
 # Título del Proyecto (Este es el título principal o título de primer nivel)
 
-Aqui va un párrafo con la descripción general del proyecto, su objetivo principal y como debe usarse.
+Aquí va un párrafo con la descripción general del proyecto, su objetivo principal y como debe emplearse.
 
-## Sección uno. Instalación (Este es un título de sección, o titulo de segundo nivel)
+## Sección uno. Instalación (Este es un título de sección, o título de segundo nivel)
 
-Normalmente aqui se deben describir los pasos para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador para que lo pueda probar o pueda comenzar a desarrollar nuevas funcionalidades. Se deben describir los prerequsitos de hardware y software para que el paquete funcione. En ocasiones se requiere de instalar previamente paquetes o dependencias. Después se definen los pasos de instalacion, compilación y ejecución del paquete. 
+Normalmente aquí se deben describir los pasos para copiar (o clonar) y ejecutar el proyecto en la máquina local de otro colaborador, de modo que éste pueda probalo o desarrollar nuevas funcionalidades. Se deben describir:
+* Los prerequisitos de hardware y software para que el paquete funcione. 
+* La instalación previa de otros paquetes o dependencias necesarios.
+* Los pasos de instalacion, compilación y ejecución del paquete. 
 
-### Prerequisitos (Título de tercer nivel)
+### Prerrequisitos (Título de tercer nivel) 
 
-Explicar aqui las cosas que se necesitan antes y como se instalan paso a paso. De preferencia explicar un procedimeinto 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesita clonar algún reportorio.
+Explicar aquí aquellos elementos que se deben adquirir antes y como se instalan paso a paso. De preferencia redactar un procedimiento 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesita clonar algún repertorio.
 
 ```
-$ Aqui se ponen los comandos a escribir en una Terminal
+$ Aquí se ponen los comandos a escribir en una Terminal
 ```
 
 ### Proceso de instalación (Título de tercer nivel)
 
-Aqui se describe paso a paso como se instala, compila y corren ejemplos del software para asegurarse que está funcionando correctamente. 
+Aquí se describe paso a paso como se instala, compila y corren ejemplos del software para asegurarse que está funcionando correctamente. 
 
 Escribir el primer paso: 
 
@@ -38,13 +41,21 @@ Cabe mencionar que no es buena idea incluir dentro de README.md secciones comple
 
 En esta sección se mostrarán formas útiles de presentar información.
 
+### Títulos
+
+Se pueden utilizar diferentes tamaños de título para establecer una estructura en el documento. Para ello se utilizan de 1 a 6 `#`.
+
+### Listas
+
 Una lista de opciones se puede crear comenzando la linea con un asterisco y espacio, * + <space>, en cada una de ellas:
-* Opcion uno
+* Opción uno
 * Opción dos
 * Opción tres
   - Opción 3.1
   - Opción 3.2
   - Opción 3.3
+
+### Hipervínculos
 
 Para poner un hipervínculo se pone el texto activo entre corchetes seguido del hipervínculo entre paréntesis, como por ejemplo:
 
@@ -52,8 +63,10 @@ Para poner un hipervínculo se pone el texto activo entre corchetes seguido del 
 
 En ocasiones se desea tener texto exactamente abajo del anterior. El comportamiento normal de README.md es que se requiere una linea en blanco entre dos lineas para que sean separadas. Sin embargo se pueden poner una despues de la otra, si al final de la primera le anexamos 3 espacios en blanco. Aqui abajo un ejemplo:
 
-[ROS](http://ros.org) - Robotic Operatin System.   
+[ROS](http://ros.org) - Robotic Operating System.   
 [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) - Basic writing and formatting syntax
+
+### Emojis e imágenes
 
 Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en emoji-cheat-sheet.com.
 
@@ -61,6 +74,8 @@ Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis
 
 ![Texto descriptivo de la imagen](images/GitHub-Logo.png)
 ![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
+
+### Tablas
 
 También se pueden poner tablas. Aqui un ejemplo:
 
