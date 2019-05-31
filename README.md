@@ -48,6 +48,8 @@ Una lista de opciones se puede crear comenzando la linea con un asterisco y espa
 
 Para poner un hipervínculo se pone el texto activo entre corchetes seguido del hipervínculo entre paréntesis, como por ejemplo:
 
+    [Maven](https://maven.apache.org/) - Dependency Management.
+
 [Maven](https://maven.apache.org/) - Dependency Management.
 
 En ocasiones se desea tener texto exactamente abajo del anterior. El comportamiento normal de README.md es que se requiere una linea en blanco entre dos lineas para que sean separadas. Sin embargo se pueden poner una despues de la otra, si al final de la primera le anexamos 3 espacios en blanco. Aqui abajo un ejemplo:
@@ -55,9 +57,11 @@ En ocasiones se desea tener texto exactamente abajo del anterior. El comportamie
 [ROS](http://ros.org) - Robotic Operatin System.   
 [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) - Basic writing and formatting syntax
 
-Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en emoji-cheat-sheet.com.
+Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en [Emoji cheat sheet](emoji-cheat-sheet.com) .
 
-Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis la dirección absoluta o relativa del archivo image.
+Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis la dirección absoluta o relativa del archivo image. Ejemplo:
+
+    ![Texto descriptivo de la imagen](images/GitHub-Logo.png)  
 
 ![Texto descriptivo de la imagen](images/GitHub-Logo.png)
 ![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
@@ -79,6 +83,7 @@ Se pueden poner lineas divisorias de secciones usando el signo menos tres veces 
 
 
 ## En resumen
+
 
 Las secciones que debería tener un buen README.md son:
 * Descripción general
