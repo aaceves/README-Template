@@ -1,12 +1,17 @@
-# Título del Proyecto (Este es el título principal o título de primer nivel)
+    "Because no one can read your mind (yet)"
+*Se recomienda re visar las siguientes ligas si no se conoce la forma de editar este archivo:
+  
 
-Aqui va un párrafo con la descripción general del proyecto, su objetivo principal y como debe usarse.
+# Título del Proyecto 
 
-## Sección uno. Instalación (Este es un título de sección, o titulo de segundo nivel)
+Descripción general del proyecto y su objetivo principal (Debe ser breve)
+Descripción del uso del código (Debe ser detallada y ordenada)
 
-Normalmente aqui se deben describir los pasos para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador para que lo pueda probar o pueda comenzar a desarrollar nuevas funcionalidades. Se deben describir los prerequsitos de hardware y software para que el paquete funcione. En ocasiones se requiere de instalar previamente paquetes o dependencias. Después se definen los pasos de instalacion, compilación y ejecución del paquete. 
+## I. Instalación 
 
-### Prerequisitos (Título de tercer nivel)
+Pasos a seguir para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador, para que lo pueda probar o pueda comenzar a desarrollar nuevas funcionalidades. Se deben describir los prerequsitos de hardware y software para que el paquete funcione. En ocasiones se requiere de instalar previamente paquetes o dependencias. Después se definen los pasos de instalacion, compilación y ejecución del paquete. 
+
+### Prerequisitos 
 
 Explicar aqui las cosas que se necesitan antes y como se instalan paso a paso. De preferencia explicar un procedimeinto 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesita clonar algún reportorio.
 
@@ -14,7 +19,7 @@ Explicar aqui las cosas que se necesitan antes y como se instalan paso a paso. D
 $ Aqui se ponen los comandos a escribir en una Terminal
 ```
 
-### Proceso de instalación (Título de tercer nivel)
+### Proceso de instalación 
 
 Aqui se describe paso a paso como se instala, compila y corren ejemplos del software para asegurarse que está funcionando correctamente. 
 
@@ -34,7 +39,7 @@ En ocasiones es necesario explicar algún comando dentro de un párrafo, como po
 Explicar cual es el resultado esperado. En caso de errores remitir a algún procedimeinto de recuperación o reinstalación.
 Cabe mencionar que no es buena idea incluir dentro de README.md secciones completas del código. Es preferible usar hipervículos.
 
-## Sección dos. Recomendaciones (Título de segundo nivel) 
+## II. Recomendaciones  
 
 En esta sección se mostrarán formas útiles de presentar información.
 
