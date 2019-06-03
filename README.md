@@ -57,7 +57,7 @@ En ocasiones se desea tener texto exactamente abajo del anterior. El comportamie
 [ROS](http://ros.org) - Robotic Operatin System.   
 [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) - Basic writing and formatting syntax
 
-Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en [Emoji cheat sheet](emoji-cheat-sheet.com) .
+Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/). emoji-cheat-sheet.com
 
 Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis la dirección absoluta o relativa del archivo image. Ejemplo:
 
