@@ -1,68 +1,107 @@
-# Título del Proyecto (Este es el título principal o título de primer nivel)
+# Título del Proyecto  (Este es el título principal o título de primer nivel)
 
-Aqui va un párrafo con la descripción general del proyecto, su objetivo principal y como debe usarse.
+Aquí va un párrafo con la descripción general del proyecto, su objetivo principal y como debe emplearse.
 
-## Sección uno. Instalación (Este es un título de sección, o titulo de segundo nivel)
+## Sección uno. Instalación  (Este es un título de sección, o título de segundo nivel)
 
-Normalmente aqui se deben describir los pasos para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador para que lo pueda probar o pueda comenzar a desarrollar nuevas funcionalidades. Se deben describir los prerequsitos de hardware y software para que el paquete funcione. En ocasiones se requiere de instalar previamente paquetes o dependencias. Después se definen los pasos de instalacion, compilación y ejecución del paquete. 
+Normalmente aquí se describen los pasos para copiar (o clonar) y ejecutar el proyecto en la máquina local de otro colaborador, de modo que éste pueda probalo o desarrollar nuevas funcionalidades. Se deben describir:
+* Los prerequisitos de hardware y software para que el paquete funcione. 
+* La instalación previa de otros paquetes o dependencias necesarios.
+* Los pasos de instalacion, compilación y ejecución del paquete. 
 
-### Prerequisitos (Título de tercer nivel)
+### Prerrequisitos  (Título de tercer nivel) 
 
-Explicar aqui las cosas que se necesitan antes y como se instalan paso a paso. De preferencia explicar un procedimeinto 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesita clonar algún reportorio.
+Explicar aquí aquellos elementos que se deben adquirir antes y el proceso de instalación paso a paso. De preferencia redactar un procedimiento 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesitará clonar algún repertorio.
 
 ```
-$ Aqui se ponen los comandos a escribir en una Terminal
+$ Aquí se ponen los comandos a escribir en una Terminal
 ```
 
-### Proceso de instalación (Título de tercer nivel)
+### Proceso de instalación  (Título de tercer nivel)
 
-Aqui se describe paso a paso como se instala, compila y corren ejemplos del software para asegurarse que está funcionando correctamente. 
+Aquí se describe paso a paso como se instala y compila y el software para asegurarse que está funcionando correctamente. 
 
 Escribir el primer paso: 
 
 ```
-$ commandos a ejecutar
+$ Comandos a ejecutar
 ```
 
-Y así sucesivamente hasta que se termine de instalar adecuadamente. Terminar con un ejemplo de corrida:
-
-```
-$ Commando ejemplificativo o un pedazo de código a editar o modificar antes de compilar.
-```
-En ocasiones es necesario explicar algún comando dentro de un párrafo, como por ejemplo `mkdir` . Para lograr esto se pone entre apóstrofes invertidos la palabra deseada. 
+Y así sucesivamente hasta que se termine de instalar adecuadamente. En ocasiones es necesario explicar algún comando dentro de un párrafo, como por ejemplo `mkdir` . Para lograr esto se pone entre apóstrofes invertidos la palabra deseada:
+``` `mkdir` ```
 
 Explicar cual es el resultado esperado. En caso de errores remitir a algún procedimeinto de recuperación o reinstalación.
 Cabe mencionar que no es buena idea incluir dentro de README.md secciones completas del código. Es preferible usar hipervículos.
 
-## Sección dos. Recomendaciones (Título de segundo nivel) 
+### Ejemplo de ejecución del programa  (Título de tercer nivel)
+
+Aquí se debe proporcionar un ejemplo típico de uso del programa. Comentando aquello que sea necesario conocer para ejecutar el programa.
+
+```
+$ Comando ejemplificativo o un pedazo de código a editar o modificar antes de compilar.
+```
+
+## Sección dos. Recomendaciones   (Título de segundo nivel) 
 
 En esta sección se mostrarán formas útiles de presentar información.
 
+### Títulos
+
+Se pueden utilizar diferentes tamaños de título para establecer una estructura en el documento. Para cambiar el nivel del título se utiliza`#`, donde la cantidad de símbolos corresponde al nivel de la cabecera. Es decir:
+
+``` 
+ # Título de primer nivel
+ #### Título de cuarto nivel
+```
+
+### Listas
+
 Una lista de opciones se puede crear comenzando la linea con un asterisco y espacio, * + <space>, en cada una de ellas:
-* Opcion uno
+* Opción uno
 * Opción dos
 * Opción tres
   - Opción 3.1
   - Opción 3.2
   - Opción 3.3
 
+### Hipervínculos
+
 Para poner un hipervínculo se pone el texto activo entre corchetes seguido del hipervínculo entre paréntesis, como por ejemplo:
+
+``` [Maven](https://maven.apache.org/) - Dependency Management. ```
 
 [Maven](https://maven.apache.org/) - Dependency Management.
 
 En ocasiones se desea tener texto exactamente abajo del anterior. El comportamiento normal de README.md es que se requiere una linea en blanco entre dos lineas para que sean separadas. Sin embargo se pueden poner una despues de la otra, si al final de la primera le anexamos 3 espacios en blanco. Aqui abajo un ejemplo:
 
-[ROS](http://ros.org) - Robotic Operatin System.   
+[ROS](http://ros.org) - Robotic Operating System.   
 [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) - Basic writing and formatting syntax
+
+### Emojis e imágenes
 
 Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en emoji-cheat-sheet.com.
 
 Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis la dirección absoluta o relativa del archivo image.
 
+```
+![Texto descriptivo de la imagen](images/GitHub-Logo.png)
+![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
+```
+
 ![Texto descriptivo de la imagen](images/GitHub-Logo.png)
 ![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
 
-También se pueden poner tablas. Aqui un ejemplo:
+### Tablas
+
+También se pueden poner tablas, separando columnas con el símbolo | y donde cada renglón es una nueva fila. Aqui un ejemplo:
+
+```
+| Cantidad | Descripción | Precio Unitario | Subtotal |
+| --- | --- | --- | --- |
+| 1 | Tarjeta Arduino | 100.00 | 100.00 |
+| 2 | Potenciómetros | 10.00 | 20.00 |
+| 10 | Resistencias de 1K| 1.00 | 10.00 |
+```
 
 | Cantidad | Descripción | Precio Unitario | Subtotal |
 | --- | --- | --- | --- |
