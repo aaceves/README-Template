@@ -4,7 +4,13 @@ Aqui va un párrafo con la descripción general del proyecto, su objetivo princi
 
 ## Sección uno. Instalación (Este es un título de sección, o titulo de segundo nivel)
 
-Normalmente aqui se deben describir los pasos para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador para que lo pueda probar o pueda comenzar a desarrollar nuevas funcionalidades. Se deben describir los prerequsitos de hardware y software para que el paquete funcione. En ocasiones se requiere de instalar previamente paquetes o dependencias. Después se definen los pasos de instalacion, compilación y ejecución del paquete. 
+Normalmente aqui se deben describir los pasos para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador para que lo pueda probar o pueda comenzar a desarrollar nuevas funcionalidades. 
+- Describir los prerequsitos de hardware y software para que el paquete funcione.
+  1. paquetes o dependencias. 
+- Pasos a ejecutar: 
+  1. Instalacion
+  2. Compilación 
+  3. Ejecución del paquete
 
 ### Prerequisitos (Título de tercer nivel)
 
@@ -57,7 +63,8 @@ En ocasiones se desea tener texto exactamente abajo del anterior. El comportamie
 [ROS](http://ros.org) - Robotic Operatin System.   
 [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) - Basic writing and formatting syntax
 
-Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/). emoji-cheat-sheet.com
+Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/).  
+emoji-cheat-sheet.com
 
 Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis la dirección absoluta o relativa del archivo image. Ejemplo:
 
