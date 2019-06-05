@@ -1,19 +1,36 @@
     "Because no one can read your mind (yet)"
-*Se recomienda re visar las siguientes ligas si no se conoce la forma de editar este archivo:
+
+### Se recomienda revisar las siguientes ligas si no se conoce la forma de editar este archivo:
+
+* https://guides.github.com/features/mastering-markdown/
+* https://help.github.com/en/articles/basic-writing-and-formatting-syntax
   
+### En resumen
+
+Las secciones que debería tener un buen README.md son:
+* Descripción general
+* Proceso de instalación
+* Ejemplo de ejecución del programa
+* Autores y Colaboradores
+* Tipo de Licencia
+* Agradecimientos
+* Lista de archivos y breve descripción de su función
+* Lista de Bugs conocidos aun sin resolver
+* Lista de ideas que se podrían implementar o mejorar en el proyecto 
+* Referencias 
 
 # Título del Proyecto 
 
-Descripción general del proyecto y su objetivo principal (Debe ser breve)
+Descripción general del proyecto y su objetivo principal (Debe ser breve)   
 Descripción del uso del código (Debe ser detallada y ordenada)
 
 ## I. Instalación 
 
-Pasos a seguir para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador, para que lo pueda probar o pueda comenzar a desarrollar nuevas funcionalidades. Se deben describir los prerequsitos de hardware y software para que el paquete funcione. En ocasiones se requiere de instalar previamente paquetes o dependencias. Después se definen los pasos de instalacion, compilación y ejecución del paquete. 
+Pasos a seguir para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador, con el fin de poder probar o desarrollar nuevas funcionalidades. Se deben describir los prerequsitos de hardware y software para que el paquete funcione sin problemas. En ocasiones se requiere de instalar previamente paquetes o dependencias las cuales depen especificarse. Por último se definen los pasos de instalacion, compilación y ejecución del paquete. 
 
 ### Prerequisitos 
 
-Explicar aqui las cosas que se necesitan antes y como se instalan paso a paso. De preferencia explicar un procedimeinto 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesita clonar algún reportorio.
+Explicar los prerequisitos y su forma de instalación paso a paso. De preferencia explicar un procedimeinto 100% confiable o anexar comentarios en caso de problemas. En algunos casos se nequerira clonar algún repositorio.
 
 ```
 $ Aqui se ponen los comandos a escribir en una Terminal
@@ -21,7 +38,7 @@ $ Aqui se ponen los comandos a escribir en una Terminal
 
 ### Proceso de instalación 
 
-Aqui se describe paso a paso como se instala, compila y corren ejemplos del software para asegurarse que está funcionando correctamente. 
+Descripción paso a paso de la instalación, compilación y la facilidad de corren ejemplos del software para asegurarse que tiene un correcto funcionamiento. 
 
 Escribir el primer paso: 
 
@@ -44,6 +61,7 @@ Cabe mencionar que no es buena idea incluir dentro de README.md secciones comple
 En esta sección se mostrarán formas útiles de presentar información.
 
 Una lista de opciones se puede crear comenzando la linea con un asterisco y espacio, * + <space>, en cada una de ellas:
+ 
 * Opcion uno
 * Opción dos
 * Opción tres
@@ -81,25 +99,9 @@ Se pueden poner lineas divisorias de secciones usando el signo menos tres veces 
 
 ---
 
-
-
-## En resumen
-
-Las secciones que debería tener un buen README.md son:
-* Descripción general
-* Proceso de instalación
-* Ejemplo de ejecución del programa
-* Autores y Colaboradores
-* Tipo de Licencia
-* Agradecimientos
-* Lista de archivos y breve descripción de su función
-* Lista de Bugs conocidos aun sin resolver
-* Referencias 
-
-
 ## Autores
 
-* **Alejandro Aceves NEGRITAS** - *Profesor ITALICAS* - [WebPage](http://homepage.cem.itesm.mx/aaceves) y  ~~Palabra tachada~~
+* **Nombre Apellido** - *Rol* - [WebPage](http://homepage.cem.itesm.mx/aaceves)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
