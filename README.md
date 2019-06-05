@@ -117,3 +117,17 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Agradecimientos
 
 Siempre es una buena construmbre agradecer a todos aquellos que nos han apoyado significativamente en el proyecto con sus comentarios o controibuciones aunque no sean parte del equipo de desarrollo. También se suele agradecer a las instituciones que apoyan con fondos monetarios en forma de becas, pago de viáticos, gastos, etc.
+
+## Lista de archivos
+
+Incluir lista de archivos y la breve descripción de su función.
+
+## Lista de Bugs conocidos aun sin resolver
+
+
+## Referencias 
+
+Incluir referencias o bibliografia de apoyo para mayor entendimiento.
+
+
+
