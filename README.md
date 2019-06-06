@@ -1,107 +1,91 @@
-# Título del Proyecto  (Este es el título principal o título de primer nivel)
+    "Because no one can read your mind (yet)"
 
-Aquí va un párrafo con la descripción general del proyecto, su objetivo principal y como debe emplearse.
+### Se recomienda revisar las siguientes ligas si no se conoce la forma de editar este archivo:
 
-## Sección uno. Instalación  (Este es un título de sección, o título de segundo nivel)
+* https://guides.github.com/features/mastering-markdown/
+* https://help.github.com/en/articles/basic-writing-and-formatting-syntax
+  
+### En resumen
 
-Normalmente aquí se describen los pasos para copiar (o clonar) y ejecutar el proyecto en la máquina local de otro colaborador, de modo que éste pueda probalo o desarrollar nuevas funcionalidades. Se deben describir:
-* Los prerequisitos de hardware y software para que el paquete funcione. 
-* La instalación previa de otros paquetes o dependencias necesarios.
-* Los pasos de instalacion, compilación y ejecución del paquete. 
+Las secciones que debería tener un buen README.md son:
+* Descripción general
+* Proceso de instalación
+* Ejemplo de ejecución del programa
+* Autores y Colaboradores
+* Tipo de Licencia
+* Agradecimientos
+* Lista de archivos y breve descripción de su función
+* Lista de Bugs conocidos aun sin resolver
+* Lista de ideas que se podrían implementar o mejorar en el proyecto 
+* Referencias 
 
-### Prerrequisitos  (Título de tercer nivel) 
+# Título del Proyecto 
 
-Explicar aquí aquellos elementos que se deben adquirir antes y el proceso de instalación paso a paso. De preferencia redactar un procedimiento 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesitará clonar algún repertorio.
+Descripción general del proyecto y su objetivo principal (Debe ser breve)   
+Descripción del uso del código (Debe ser detallada y ordenada)
+
+## I. Instalación 
+
+Pasos a seguir para copiar (o clonar) el proyecto y ejecutarlo en la máquina local del colaborador, con el fin de poder probar o desarrollar nuevas funcionalidades. Se deben describir los prerequsitos de hardware y software para que el paquete funcione sin problemas. En ocasiones se requiere de instalar previamente paquetes o dependencias las cuales depen especificarse. Por último se definen los pasos de instalacion, compilación y ejecución del paquete. 
+
+### Prerequisitos 
+
+Explicar los prerequisitos y su forma de instalación paso a paso. De preferencia explicar un procedimeinto 100% confiable o anexar comentarios en caso de problemas. En algunos casos se nequerira clonar algún repositorio.
 
 ```
-$ Aquí se ponen los comandos a escribir en una Terminal
+$ Aqui se ponen los comandos a escribir en una Terminal
 ```
 
-### Proceso de instalación  (Título de tercer nivel)
+### Proceso de instalación 
 
-Aquí se describe paso a paso como se instala y compila y el software para asegurarse que está funcionando correctamente. 
+Descripción paso a paso de la instalación, compilación y la facilidad de corren ejemplos del software para asegurarse que tiene un correcto funcionamiento. 
 
 Escribir el primer paso: 
 
 ```
-$ Comandos a ejecutar
+$ commandos a ejecutar
 ```
 
-Y así sucesivamente hasta que se termine de instalar adecuadamente. En ocasiones es necesario explicar algún comando dentro de un párrafo, como por ejemplo `mkdir` . Para lograr esto se pone entre apóstrofes invertidos la palabra deseada:
-``` `mkdir` ```
+Y así sucesivamente hasta que se termine de instalar adecuadamente. Terminar con un ejemplo de corrida:
+
+```
+$ Commando ejemplificativo o un pedazo de código a editar o modificar antes de compilar.
+```
+En ocasiones es necesario explicar algún comando dentro de un párrafo, como por ejemplo `mkdir` . Para lograr esto se pone entre apóstrofes invertidos la palabra deseada. 
 
 Explicar cual es el resultado esperado. En caso de errores remitir a algún procedimeinto de recuperación o reinstalación.
 Cabe mencionar que no es buena idea incluir dentro de README.md secciones completas del código. Es preferible usar hipervículos.
 
-### Ejemplo de ejecución del programa  (Título de tercer nivel)
-
-Aquí se debe proporcionar un ejemplo típico de uso del programa. Comentando aquello que sea necesario conocer para ejecutar el programa.
-
-```
-$ Comando ejemplificativo o un pedazo de código a editar o modificar antes de compilar.
-```
-
-## Sección dos. Recomendaciones   (Título de segundo nivel) 
+## II. Recomendaciones  
 
 En esta sección se mostrarán formas útiles de presentar información.
 
-### Títulos
-
-Se pueden utilizar diferentes tamaños de título para establecer una estructura en el documento. Para cambiar el nivel del título se utiliza`#`, donde la cantidad de símbolos corresponde al nivel de la cabecera. Es decir:
-
-``` 
- # Título de primer nivel
- #### Título de cuarto nivel
-```
-
-### Listas
-
 Una lista de opciones se puede crear comenzando la linea con un asterisco y espacio, * + <space>, en cada una de ellas:
-* Opción uno
+ 
+* Opcion uno
 * Opción dos
 * Opción tres
   - Opción 3.1
   - Opción 3.2
   - Opción 3.3
 
-### Hipervínculos
-
 Para poner un hipervínculo se pone el texto activo entre corchetes seguido del hipervínculo entre paréntesis, como por ejemplo:
-
-``` [Maven](https://maven.apache.org/) - Dependency Management. ```
 
 [Maven](https://maven.apache.org/) - Dependency Management.
 
 En ocasiones se desea tener texto exactamente abajo del anterior. El comportamiento normal de README.md es que se requiere una linea en blanco entre dos lineas para que sean separadas. Sin embargo se pueden poner una despues de la otra, si al final de la primera le anexamos 3 espacios en blanco. Aqui abajo un ejemplo:
 
-[ROS](http://ros.org) - Robotic Operating System.   
+[ROS](http://ros.org) - Robotic Operatin System.   
 [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) - Basic writing and formatting syntax
-
-### Emojis e imágenes
 
 Se pueden anexar EMOJIS como por ejemplo :+1:, :shipit:.  Una lista completa se puede encontrar en emoji-cheat-sheet.com.
 
 Tambien se pueden anexar imagenes usando los caracteres ![ ] y entre paréntesis la dirección absoluta o relativa del archivo image.
 
-```
-![Texto descriptivo de la imagen](images/GitHub-Logo.png)
-![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
-```
-
 ![Texto descriptivo de la imagen](images/GitHub-Logo.png)
 ![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
 
-### Tablas
-
-También se pueden poner tablas, separando columnas con el símbolo | y donde cada renglón es una nueva fila. Aqui un ejemplo:
-
-```
-| Cantidad | Descripción | Precio Unitario | Subtotal |
-| --- | --- | --- | --- |
-| 1 | Tarjeta Arduino | 100.00 | 100.00 |
-| 2 | Potenciómetros | 10.00 | 20.00 |
-| 10 | Resistencias de 1K| 1.00 | 10.00 |
-```
+También se pueden poner tablas. Aqui un ejemplo:
 
 | Cantidad | Descripción | Precio Unitario | Subtotal |
 | --- | --- | --- | --- |
@@ -115,25 +99,9 @@ Se pueden poner lineas divisorias de secciones usando el signo menos tres veces 
 
 ---
 
-
-
-## En resumen
-
-Las secciones que debería tener un buen README.md son:
-* Descripción general
-* Proceso de instalación
-* Ejemplo de ejecución del programa
-* Autores y Colaboradores
-* Tipo de Licencia
-* Agradecimientos
-* Lista de archivos y breve descripción de su función
-* Lista de Bugs conocidos aun sin resolver
-* Referencias 
-
-
 ## Autores
 
-* **Alejandro Aceves NEGRITAS** - *Profesor ITALICAS* - [WebPage](http://homepage.cem.itesm.mx/aaceves) y  ~~Palabra tachada~~
+* **Nombre Apellido** - *Rol* - [WebPage](http://homepage.cem.itesm.mx/aaceves)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
