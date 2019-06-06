@@ -1,6 +1,6 @@
 # Título del Proyecto
 
-Este README.md se escribió como un tutorial de como escribir archivos en formato "MarkDown". Se espera que en este primer parrafo se haga una descripción general del proyecto, su objetivo principal y como debe emplearse. Todo proyecto puede describirse paso a paso mediante secciones diferentes en donde se desarrolla cada tema. Las secciones que debería tener un buen README.md son:
+Este README.md se escribió como un tutorial de archivos en formato "MarkDown". Se espera que en este primer parrafo se haga una descripción general del proyecto y su objetivo principal (breve pero clara) y una descripción del uso del código (detallada y ordenada). Las secciones que podría tener (cuando sea relevante) un buen README.md son:
 
 * Descripción general
 * Proceso de instalación
@@ -10,6 +10,7 @@ Este README.md se escribió como un tutorial de como escribir archivos en format
 * Agradecimientos
 * Lista de archivos y breve descripción de su función
 * Lista de Bugs conocidos aun sin resolver
+* Lista de ideas que se podrían implementar o mejorar en el proyecto
 * Referencias 
 
 ## Instalación
@@ -21,7 +22,7 @@ Normalmente aqui se deben describir los pasos para copiar (o clonar) el proyecto
 
 ### Prerrequisitos  (Título de tercer nivel) 
 
-Explicar aquí aquellos elementos que se deben adquirir antes y el proceso de instalación paso a paso. De preferencia redactar un procedimiento 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesitará clonar algún repertorio. Los comandos se deben escribir en una caja separada con letra recta y considerando que se escribe en el la linea de comando (Shell) de Linux:
+Explicar aquí aquellos elementos que se deben adquirir antes y el proceso de instalación paso a paso. De preferencia redactar un procedimiento 100% confiable o anexar comentarios en caso de problemas. En algunos casos se necesitará clonar algún repertorio. Los comandos se deben escribir en una caja separada con letra recta y considerando que se escribe en el la línea de comando (Shell) de Linux:
 
 ```
 $ Aquí se ponen los comandos a escribir en una Terminal
