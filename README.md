@@ -10,8 +10,6 @@ Este README.md se escribió como un tutorial de archivos en formato "MarkDown". 
 * Agradecimientos
 * Lista de archivos y breve descripción de su función
 * Lista de Bugs conocidos aun sin resolver
-* Lista de ideas que se podrían implementar o mejorar en el proyecto
-* Referencias 
 
 ## Instalación
 
