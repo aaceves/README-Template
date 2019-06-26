@@ -108,6 +108,12 @@ Tamaño normal:
 Para controlar el tamaño:
 <img src="http://www.ros.org/wp-content/uploads/2016/05/kinetic.png"  width="120" height="120">
 
+Para controlar la alineación:   
+
+<p align="center">
+  <img width="460" height="300" src="http://www.ros.org/wp-content/uploads/2016/05/kinetic.png">
+</p>
+
 También se pueden poner tablas, separando columnas con el símbolo | y donde cada renglón es una nueva fila. Aqui un ejemplo:
 
 ```
