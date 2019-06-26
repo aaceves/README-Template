@@ -100,9 +100,13 @@ Tambien se pueden anexar imagenes usando los caracteres `![ ]` y entre paréntes
 ![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
 ```
 Este es el resultado:
-
 ![Texto descriptivo de la imagen](images/GitHub-Logo.png)
+
+Tamaño normal:
 ![](http://www.ros.org/wp-content/uploads/2016/05/kinetic.png)
+
+Para controlar el tamaño:
+<img src="http://www.ros.org/wp-content/uploads/2016/05/kinetic.png"  width="120" height="120">
 
 También se pueden poner tablas, separando columnas con el símbolo | y donde cada renglón es una nueva fila. Aqui un ejemplo:
 
